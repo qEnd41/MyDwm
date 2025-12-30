@@ -51,7 +51,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0";
 static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
 static const char *termcmd[]  = { "kitty", NULL };
-static const char *langcmd[]  = { "setxkbmap", "-layout", "us,ua,ru", "-option", "grp:alt_shift_toggle", NULL };
+static const char *langcmd[]  = { "setxkbmap", "-layout", "us", "-option", "grp:alt_shift_toggle", NULL };
 
 #include <X11/XF86keysym.h>
 
