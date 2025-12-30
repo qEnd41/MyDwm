@@ -3,7 +3,7 @@ xset s off &
 xset -dpms &
 xset s noblank & 
 
-setxkbmap -layout us,ua,ru -option grp:alt_shift_toggle &
+setxkbmap -layout us -option grp:alt_shift_toggle &
 
 dwmblocks &
 
