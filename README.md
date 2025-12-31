@@ -1,6 +1,6 @@
 # MyDwm
 ## Dependencies
-For using dwm with this configure you need:`rofi`, `kitty`, `maim`, `pulseaudio`, `brightnessctl`, `font-awesome`, `nerd-fonts(jetbrians-mono-nerd`,`xorg-xauth`,`xorg-server`,`xorg-xinit`
+For using dwm with this configure you need:`rofi`, `kitty`, `maim`, `pulseaudio`, `brightnessctl`, `font-awesome`, `nerd-fonts(jetbrians-mono-nerd`,`xorg-xauth`,`xorg-server`,`xorg-xinit`,`libxinerama`
 ### Debian/Ubuntu
 ```sudo apt update && sudo apt install -y rofi kitty maim pulseaudio brightnessctl fonts-font-awesome fonts-jetbrains-mono```
 
