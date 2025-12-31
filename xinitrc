@@ -1,8 +1,4 @@
 #!/bin/sh
-xset s off &    
-xset -dpms &
-xset s noblank & 
-
 setxkbmap -layout us -option grp:alt_shift_toggle &
 
 dwmblocks &
