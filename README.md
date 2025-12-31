@@ -1,6 +1,6 @@
 # MyDwm
 ## Dependencies
-For using dwm with this configure you need:`rofi`, `kitty`, `maim`, `pulseaudio`, `brightnessctl`, `font-awesome`, `jetbrains-mono-nerd`
+For using dwm with this configure you need:`rofi`, `kitty`, `maim`, `pulseaudio`, `brightnessctl`, `font-awesome`, `nerd-fonts(jetbrians-mono-nerd`,`xorg-xauth`,`xorg-server`,`xorg-xinit`
 ### Debian/Ubuntu
 ```sudo apt update && sudo apt install -y rofi kitty maim pulseaudio brightnessctl fonts-font-awesome fonts-jetbrains-mono```
 
@@ -23,6 +23,8 @@ If you want to add/change keyboard layout, you can make this in file `xinitrc` o
   cd
   git clone https://github.com/nazik0202/Mydwm
   cp Mydwm/xinitrc $HOME/.xinitrc
+  cd
+  chmod +x ~/.xinitrc
   cd $HOME/Mydwm/dwm
   sudo make clean install
   cd $HOME/Mydwm/dwmblocks
