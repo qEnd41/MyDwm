@@ -1,11 +1,11 @@
 # MyDwm
 ## Dependencies
-For using dwm with this configure you need:`rofi`, `kitty`, `maim`, `pulseaudio`, `brightnessctl`, `font-awesome`, `nerd-fonts(jetbrians-mono-nerd`,`xorg-xauth`,`xorg-server`,`xorg-xinit`,`libxinerama`
+For using dwm with this configure you need:`rofi`, `kitty`, `maim`, `pulseaudio`, `brightnessctl`, `font-awesome`, `nerd-fonts(jetbrians-mono-nerd)`,`xorg-xauth`,`xorg-server`,`xorg-xinit`,`libxinerama`
 ### Debian/Ubuntu
-```sudo apt update && sudo apt install -y rofi kitty maim pulseaudio brightnessctl fonts-font-awesome fonts-jetbrains-mono```
+```sudo apt update && sudo apt install -y rofi kitty maim pulseaudio brightnessctl fonts-font-awesome nerd-fonts xauth xserver-xorg xinit libxinerama1```
 
 ### Arch/Cachyos
-```sudo pacman -Syu rofi kitty maim pulseaudio brightnessctl ttf-font-awesome ttf-jetbrains-mono-nerd```
+```sudo pacman -Syu rofi kitty maim pulseaudio brightnessctl ttf-font-awesome nerd-fonts xorg-xauth xorg-server xorg-xinit libxinerama```
 
 ## How to change?
 
