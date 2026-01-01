@@ -21,13 +21,12 @@ If you want to add/change keyboard layout, you can make this in file `xinitrc` o
 ## Installation
 ```
   cd
-  git clone https://github.com/nazik0202/Mydwm
-  cp Mydwm/xinitrc $HOME/.xinitrc
-  cd
+  git clone https://github.com/nazik0202/MyDwm
+  cp MyDwm/xinitrc $HOME/.xinitrc
   chmod +x ~/.xinitrc
-  cd $HOME/Mydwm/dwm
+  cd $HOME/MyDwm/dwm
   sudo make clean install
-  cd $HOME/Mydwm/dwmblocks
+  cd $HOME/MyDwm/dwmblocks
   sudo make clean install
 ```
 And then we start a xinitrc session
