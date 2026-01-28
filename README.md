@@ -21,7 +21,7 @@ If you want to add/change keyboard layout, you can make this in file `xinitrc` o
 ## Installation
 ```
   cd
-  git clone https://github.com/nazik0202/MyDwm
+  git clone https://github.com/qEnd41/MyDwm
   cp MyDwm/xinitrc $HOME/.xinitrc
   chmod +x ~/.xinitrc
   cd $HOME/MyDwm/dwm
